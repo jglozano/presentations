@@ -1,0 +1,11 @@
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\CustomViewEngine.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\CustomViewEngine.pdb
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\Microsoft.Web.Mvc.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\MvcContrib.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\MvcContrib.ViewEngines.NVelocity.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\NVelocity.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\MvcContrib.ViewEngines.NVelocity.pdb
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\bin\NVelocity.xml
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\obj\Debug\CustomViewEngine.dll
+C:\git\github\presentations\MVCExtensibility\src\Views\CustomViewEngine\obj\Debug\CustomViewEngine.pdb

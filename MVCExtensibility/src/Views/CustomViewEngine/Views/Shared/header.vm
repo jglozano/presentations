@@ -1,6 +1,5 @@
-﻿<div id="header"> 
-	<span class="label">Header:</span> 
-	$HtmlHelper.ActionLink("Index","Index")
-	$Html.ActionLink("About", "About")
-	$Html.ActionLink("Contact", "Contact")
-</div> 
+﻿<ul id="menu">
+    <li>$HtmlHelper.ActionLink("Index","Index")</li>
+    <li>$Html.ActionLink("About", "About")</li>
+    <li>$Html.ActionLink("Contact", "Contact")</li>
+</ul>
