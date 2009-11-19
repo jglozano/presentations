@@ -1,0 +1,37 @@
+<Canvas
+	xmlns="http://schemas.microsoft.com/client/2007"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  x:Name="mainCanvas" Loaded="Initialize">
+
+    <!-- Container for Video Item -->
+    <MediaElement Width="800" Height="600" Canvas.Left="40"
+         x:Name="videoMediaElement"
+         Source="videos/trailer.wmv" IsMuted="False"
+        MouseLeftButtonDown="onButtonDown"
+        MouseLeftButtonUp="onButtonUp"
+        MouseMove="onMouseMove" />
+
+    <TextBlock Canvas.Top="32" FontWeight="Bold" Text="Play"
+               MouseLeftButtonDown="PlayVideo" />
+    <TextBlock Canvas.Top="48" FontWeight="Bold" Text="Stop"
+               MouseLeftButtonDown="StopVideo" />
+    <TextBlock Canvas.Top="64" FontWeight="Bold" Text="Pause"
+               MouseLeftButtonDown="PauseVideo" />
+
+    <Canvas Width="150" Height="35" x:Name="textCanvas"
+        MouseLeftButtonDown="onButtonDown"
+        MouseLeftButtonUp="onButtonUp"
+        MouseMove="onMouseMove">
+
+        <TextBlock FontSize="24" Text="How is the weather?" x:Name="weatherTextBlock" 
+                   MouseLeftButtonDown="OnWeatherTextBlockClicked" />
+    </Canvas>
+
+    <Canvas Width="200" Height="40" Canvas.Top="85" x:Name="PersonCanvas" MouseLeftButtonDown="onButtonDown"
+        MouseLeftButtonUp="onButtonUp"
+        MouseMove="onMouseMove">
+
+        <TextBlock FontSize="24" Text="What's my name?" x:Name="personTextBlock"
+                   MouseLeftButtonDown="OnPersonTextBlockClicked" />
+    </Canvas>
+</Canvas>

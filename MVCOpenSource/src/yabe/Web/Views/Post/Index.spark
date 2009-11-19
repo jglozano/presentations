@@ -1,0 +1,19 @@
+﻿<content name="MainContent">
+    <viewdata model="IEnumerable[[Mvc.Models.Post.PostViewModel]]"/>
+   
+    <div each="var post in ViewData.Model">
+            <h3>${post.Title}</h3>
+            <span>${post.PostedDate} -- Comments [${post.Comments.Count}]</span>
+            <div>
+                <span>!{post.Contents}</span>
+            </div>
+            <br />
+            <span>
+                <ul>Categories:
+                 <li each="var category in post.Categories">
+                <strong>${category.Name}</strong>&nbsp;&nbsp;
+                </li>
+                </ul>
+            </span>
+        </div>
+</content>

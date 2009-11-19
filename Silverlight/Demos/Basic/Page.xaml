@@ -1,0 +1,18 @@
+﻿<Canvas
+	xmlns="http://schemas.microsoft.com/client/2007"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Width="800" Height="600"
+	Background="White"
+	x:Name="Page"
+	>
+	
+	<Ellipse Width="211" Height="211" Canvas.Left="135" Canvas.Top="34" RenderTransformOrigin="0.137,0.209" 
+	MouseLeftButtonDown="OnButtonDown">
+		<Ellipse.Fill>
+			<LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+				<GradientStop Color="#FF331159" Offset="1"/>
+				<GradientStop Color="#FF37CEAA" Offset="1"/>
+			</LinearGradientBrush>
+		</Ellipse.Fill>
+	</Ellipse>
+</Canvas>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QComponent", "QComponent\QComponent.csproj", "{F6776048-5953-46D5-9198-068BD599B8B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QClient", "QClient\QClient.csproj", "{4910B786-5F39-4A7B-9CAF-AC720D340418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6776048-5953-46D5-9198-068BD599B8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6776048-5953-46D5-9198-068BD599B8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6776048-5953-46D5-9198-068BD599B8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6776048-5953-46D5-9198-068BD599B8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4910B786-5F39-4A7B-9CAF-AC720D340418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4910B786-5F39-4A7B-9CAF-AC720D340418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4910B786-5F39-4A7B-9CAF-AC720D340418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4910B786-5F39-4A7B-9CAF-AC720D340418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
