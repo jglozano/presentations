@@ -1,1 +1,2 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MvcTurbine.Samples.ControllerInjection.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" 
+    Inherits="MvcTurbine.Samples.ControllerInjection.MvcApplication" Language="C#" %>

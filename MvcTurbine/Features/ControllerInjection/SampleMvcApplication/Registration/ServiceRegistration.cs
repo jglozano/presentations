@@ -11,7 +11,7 @@
             // Specify the implementation for each of the services that will
             // be used by the controllers via constructor injection.
 
-            locator.Register<IMessageService, MessageService>();
+           // locator.Register<IMessageService, MessageService>();
             locator.Register<IFormsAuthentication, FormsAuthenticationService>();
             locator.Register<IMembershipService, AccountMembershipService>();
         }

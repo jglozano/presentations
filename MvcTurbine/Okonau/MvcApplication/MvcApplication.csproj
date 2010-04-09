@@ -71,14 +71,6 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Engine\MvcTurbine.Web\MvcTurbine.Web.csproj">
-      <Project>{A2634ACF-E549-4861-A36D-A6BEA773BFDB}</Project>
-      <Name>MvcTurbine.Web</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Engine\MvcTurbine\MvcTurbine.csproj">
-      <Project>{794C0A9F-60EB-4E25-93F2-5D4D59122529}</Project>
-      <Name>MvcTurbine</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Mvc\Mvc.csproj">
       <Project>{3059DCCD-AFEC-490E-BDF3-E08DBA238924}</Project>
       <Name>Mvc</Name>
